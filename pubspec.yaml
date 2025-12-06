@@ -1,0 +1,93 @@
+name: safechat
+description: SafeChat — xavfsiz va zamonaviy chat ilovasi
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+  flutter: '>=3.24.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Design
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  font_awesome_flutter: ^10.7.0
+  iconsax: ^0.0.8
+  avatar_glow: ^3.0.1
+  animated_text_kit: ^4.2.2
+  animations: ^2.0.11
+  carousel_slider: ^5.0.0
+  emoji_picker_flutter: ^4.4.0
+
+  # Media & Picker
+  image_picker: ^1.1.2           # Mobil + Web uchun eng barqaror
+  photo_manager: ^3.2.2          # Galereya boshqaruvi uchun
+  camera: ^0.10.6
+  video_player: ^2.9.1
+  chewie: ^1.7.5                 #Video pleer
+  cached_network_image: ^3.4.1   # Faqat bitta marta!
+
+  # Audio
+  flutter_sound: ^9.2.13         # Ovoz yozish va ijro etish
+
+  # AI & Moderation
+  google_generative_ai: ^0.4.3
+  google_mlkit_image_labeling: ^0.13.0
+  flutter_markdown: ^0.7.7+1     # Hozircha ishlab turgan oxirgi versiya
+
+  # State & Utils
+  flutter_hooks: ^0.21.3+1
+  equatable: ^2.0.7
+  # ^2.0.7
+  intl: ^0.20.2
+  uuid: ^4.5.0
+  shared_preferences: ^2.3.2
+  path_provider: ^2.1.5
+  share_plus: ^10.1.4
+  permission_handler: ^11.3.1
+
+  # Layout & Scrolling
+  scrollable_positioned_list: ^0.3.8
+  reorderables: ^0.6.0
+  simple_animations: ^5.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+# Assets & Fonts
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+
+  # Agar kerak boʻlsa, keyinchalik ochasiz
+  # fonts:
+  #   - family: ReginaQizim
+  #     fonts:
+  #       - asset: assets/fonts/ReginaQizim-Regular.ttf
+
+# App Icons
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+  min_sdk_android: 21
+
+  web:
+    generate: true
+    image_path: "assets/logo.png"
+
+  windows:
+    generate: true
+    image_path: "assets/logo.png"
+
+  macos:
+    generate: true
+    image_path: "assets/logo.png"
